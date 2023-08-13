@@ -90,15 +90,23 @@ export default function Home() {
         <h2 className='text-2xl text-slate-400'>Ссылки:</h2>
         <ul className='flex flex-col gap-3'>
           <li>
-            <Link href='https://quest55.ru/' className='text-xl cursor-pointer'>quest55</Link>
+            <a
+              href='https://omsk.mir-kvestov.ru/quests/alliance-quest-nevidimka'
+              target='_blank'
+            >
+              <img
+                src='https://omsk.mir-kvestov.ru/widgets/7928/img'
+                width='210'
+                alt='Отзывы на Квест в реальности Невидимка (Alliance Quest)'
+                title='Отзывы на Квест в реальности Невидимка (Alliance Quest)'
+              />
+            </a>
           </li>
           <li>
-            <Link href='https://omsk.mir-kvestov.ru/quests/alliance-quest-nevidimka' className='text-xl cursor-pointer'>
-              Мир квестов
-            </Link>
-          </li>
-          <li>
-            <Link href='https://vk.com/alliancequestomsk' className='text-xl cursor-pointer'>
+            <Link
+              href='https://vk.com/alliancequestomsk'
+              className='text-xl cursor-pointer'
+            >
               Хоррор квесты Омск
             </Link>
           </li>
