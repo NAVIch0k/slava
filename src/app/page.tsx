@@ -86,6 +86,17 @@ export default function Home() {
         </div>
       </div>
 
+      <div className='flex gap-2 mt-6'>
+        <h2 className='text-2xl text-slate-400'>Информация о квестах -</h2>
+        <Link
+          href={'https://vk.com/alliancequestomsk'}
+          className='text-xl cursor-pointer'
+          target='_blank'
+        >
+          https://vk.com/alliancequestomsk
+        </Link>
+      </div>
+
       <div className='flex flex-col gap-2 mt-6'>
         <h2 className='text-2xl text-slate-400'>Ссылки:</h2>
         <ul className='flex flex-col gap-3'>
@@ -106,6 +117,7 @@ export default function Home() {
             <Link
               href='https://vk.com/alliancequestomsk'
               className='text-xl cursor-pointer'
+              target='_blank'
             >
               Хоррор квесты Омск
             </Link>
